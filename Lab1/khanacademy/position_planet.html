@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Challenge: Position planet</title>
+    <style>
+        .scene {
+            position: relative; 
+            width: 300px;      
+            margin: 0 auto;
+        }
+
+        #planet {
+            width: 100%;
+        }
+
+        #creature {
+            position: absolute; /* позволяет разместить поверх планеты */
+            top: 120px;         /* теперь существо сидит на планете */
+            left: 100px;        /* горизонтальное положение */
+            width: 80px;        /* размер существа */
+        }
+
+        #greeting {
+            background: rgb(255, 255, 0);
+            border: 2px solid black;
+            font-family: "Comic Sans MS", fantasy;
+            padding: 5px;
+            width: 262px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="scene">
+        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png">
+        <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png">
+    </div>
+
+    <div id="greeting">
+        <p>Hello! Welcome to position planet!</p>
+    </div>
+
+</body>
+</html>
