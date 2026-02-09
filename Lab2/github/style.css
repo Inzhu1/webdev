@@ -19,7 +19,7 @@ body {
 }
 
 /* Навигация  */
-.breadcrumb-nav {
+.nav {
     padding: 24px 0 16px;
     border-bottom: 1px solid #d0d7de;
     margin-bottom: 32px;
@@ -411,6 +411,14 @@ body {
     padding: 6px 12px;
     border-radius: 6px;
     font-size: 14px;
+}
+.footer{
+    text-align:center;
+}
+.footer-contact{
+    text-align:center;
+    margin-top:8px;
+
 }
 
 
