@@ -37,9 +37,6 @@ class ProductViewSet(viewsets.ModelViewSet):
         if max_price:
             queryset = queryset.filter(price__lte=float(max_price))
         
-        # Filter by name
-        name = self.request.query_params.get('name')
-        if name:
-            queryset = queryset.filter(name__icontains=name)
         
-        return queryset
+        return queryset   
+        
