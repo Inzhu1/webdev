@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://127.0.0.1:8000/api/products/1/
+method: PUT
+body:
+  type: text
+  content: |-
+    {
+      "name": "Updated Product",
+      "price": 149.99,
+      "description": "Updated description",
+      "count": 5,
+      "is_active": true,
+      "category": 1
+    }
+order: 4000
